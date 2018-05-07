@@ -69,8 +69,8 @@ class AlertFactory
 end
 ```
 
-## Concequences:
+## Consequences:
 - Allows for complex logic to be abstracted away from both the classes they create and the client.
-- Can result in overengineered logic when the base logic is simple.  Usually an indication that the client already knows exactly what it wants and doesn't need to delegate that responsibility.
+- Can result in over engineered logic when the baser logic is simple.  Usually an indication that the client already knows exactly what it wants and doesn't need to delegate that responsibility.
 - Can make code more complicated if the factory returns unrelated objects.  Factories usually use abstract classes or modules to enforce similar behavior across objects.
-- Can be used to enfoce or wrap a group of objects in a specific functionality.  For example, a factory can return a three dimensional shape depending on the two dimensional shape passed into it. 
+- Can be used to enfoce or wrap a group of objects in a specific functionality.  For example, a factory can return a three-dimensional shape depending on the two-dimensional shape passed into it. 
